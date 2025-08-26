@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AbraAPIFramework",
-            url: "https://nbg1.your-objectstorage.com/abrabv/AbraAPI/1.0.13-SNAPSHOT/AbraAPI-1.0.13-SNAPSHOT.zip",
-            checksum: "e85d55e7941a76153247b70706a8c4cae74f7cef560a8f74fa146eb3cba76caf"
+            url: "https://nbg1.your-objectstorage.com/abrabv/AbraAPI/1.1.1/AbraAPI-1.1.1.zip",
+            checksum: "060ecc16c066a8f97abf8624c5d06ebad052d2f837c22f1b54472323e7fdd29a"
         ),
     ],
     swiftLanguageVersions: [.v5]
