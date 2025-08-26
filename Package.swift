@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AbraAPIFramework",
-            url: "https://downloads.abra.ai/abra-api-ios/production/AbraAPI-1.0.13-SNAPSHOT.zip",
-            checksum: "563f67c994af876e7a0436742e793c5907dd5fed12745fc0a5c79816d3dd47c7"
+            url: "https://downloads.abra.ai/abra-api-ios/production/AbraAPI-1.1.1.zip",
+            checksum: "060ecc16c066a8f97abf8624c5d06ebad052d2f837c22f1b54472323e7fdd29a"
         ),
     ],
     swiftLanguageVersions: [.v5]
