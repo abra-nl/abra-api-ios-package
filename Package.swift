@@ -24,8 +24,7 @@ let package = Package(
         // Binary target containing the framework
         .binaryTarget(
             name: "AbraAPIFramework",
-            url: "https://nbg1.your-objectstorage.com/abrabv/AbraAPI/1.1.1/AbraAPI-1.1.1.zip",
-            checksum: "060ecc16c066a8f97abf8624c5d06ebad052d2f837c22f1b54472323e7fdd29a"
+            path: "releases/1.0.0/AbraAPI-1.0.0.zip"
         ),
         // Wrapper target to handle binary target dependencies
         .target(
