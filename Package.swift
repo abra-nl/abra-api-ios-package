@@ -17,7 +17,6 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies that the binary framework needs
-        .package(url: "https://github.com/mac-cain13/R.swift.git", .upToNextMajor(from: "7.7.0")),
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.9.1"))
     ],
     targets: [
@@ -30,7 +29,6 @@ let package = Package(
         .target(
             name: "AbraAPIWrapper",
             dependencies: [
-                .product(name: "RswiftLibrary", package: "R.swift"),
                 .product(name: "Alamofire", package: "Alamofire"),
                 "AbraAPIFramework"
             ],
