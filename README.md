@@ -1,6 +1,6 @@
-# Abra API Mac / iOS Package
+# Abra API Package (iOS + Mac)
 
-This is a wrapper around the Abra Restfull API. It enables you to work with a type hinted library when working with our API.
+This package enables you to interact with the Abra API from iOS and macOS based applications.
 
 ## Useful links
 
@@ -9,6 +9,8 @@ This is a wrapper around the Abra Restfull API. It enables you to work with a ty
 
 ## License
 
-The Abra API is a wrapper around our API, it is only allowed to use it with a valid license / api key. [Vist our website](https://abra.ai) to learn more.
+You are only allowed to use this package with a valid license key. [Visit our website](https://abra.ai/products) to learn more.
+
+---
 
 Copyright © 2025 Abra B.V.
