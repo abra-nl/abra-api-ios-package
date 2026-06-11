@@ -9,30 +9,15 @@ let package = Package(
         .macOS(.v14)
     ],
     products: [
-        // Library with dependencies
         .library(
             name: "AbraAPI",
-            targets: ["AbraAPIFramework", "AbraAPIWrapper"]
+            targets: ["AbraAPIFramework"]
         ),
     ],
-    dependencies: [
-        // Dependencies that the binary framework needs
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.9.1"))
-    ],
     targets: [
-        // Binary target containing the framework
         .binaryTarget(
             name: "AbraAPIFramework",
             path: "releases/1.4.0/AbraAPI-1.4.0.zip"
-        ),
-        // Wrapper target to handle binary target dependencies
-        .target(
-            name: "AbraAPIWrapper",
-            dependencies: [
-                .product(name: "Alamofire", package: "Alamofire"),
-                "AbraAPIFramework"
-            ],
-            path: "Wrapper"
         )
     ],
     swiftLanguageVersions: [.v5]
